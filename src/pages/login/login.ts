@@ -15,6 +15,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class LoginPage {
 
+  acount:{
+    email:string,
+    password:string
+  }={
+    email : "youremail@email.com",
+    password : "12345678"
+  }
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
