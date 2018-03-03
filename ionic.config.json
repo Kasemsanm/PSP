@@ -1,0 +1,8 @@
+{
+  "name": "PSP",
+  "app_id": "dd35f0ba",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
