@@ -12,6 +12,6 @@ export class HomePage {
 
   }
   LoginPage() {
-    this.navCtrl.push(LoginPage);
+    this.navCtrl.popTo(LoginPage);
   }
 }
