@@ -28,10 +28,6 @@ export class LoginPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');
-    document.querySelector("#particles").particleground({
-      dotColor: '#5cbdaa',
-      lineColor: '#5cbdaa'
-    });
   }
 
 }
