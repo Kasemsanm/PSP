@@ -15,7 +15,7 @@ export class HomePage {
   LoginPage() {
     this.navCtrl.push(LoginPage);
   }
-  SingUppage() {
+  SingUpPage() {
     this.navCtrl.push(SingUpPage);
   }
 }
