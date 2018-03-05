@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SoftwarePage } from '../software/software';
 
 /**
- * Generated class for the MainMenuPage page.
+ * Generated class for the SoftwarePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,16 @@ import { SoftwarePage } from '../software/software';
 
 @IonicPage()
 @Component({
-  selector: 'page-main-menu',
-  templateUrl: 'main-menu.html',
+  selector: 'page-software',
+  templateUrl: 'software.html',
 })
-export class MainMenuPage {
+export class SoftwarePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MainMenuPage');
-  }
-
-  SoftwarePage() {
-    this.navCtrl.push(SoftwarePage);
+    console.log('ionViewDidLoad SoftwarePage');
   }
 
 }

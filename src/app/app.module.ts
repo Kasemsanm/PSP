@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { SingUpPage } from '../pages/sing-up/sing-up';
 import { MainMenuPage } from '../pages/main-menu/main-menu';
+import { SoftwarePage } from '../pages/software/software';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainMenuPage } from '../pages/main-menu/main-menu';
     HomePage,
     LoginPage,
     SingUpPage,
-    MainMenuPage
+    MainMenuPage,
+    SoftwarePage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { MainMenuPage } from '../pages/main-menu/main-menu';
     HomePage,
     LoginPage,
     SingUpPage,
-    MainMenuPage
+    MainMenuPage,
+    SoftwarePage
   ],
   providers: [
     StatusBar,
