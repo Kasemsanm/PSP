@@ -8,13 +8,13 @@ import { HomePage } from '../home/home';
   templateUrl: 'singup.html',
 })
 export class SingupPage {
-  account:{
-    email:string,
-    password:string
-  }={
-    email : "youremail@email.com",
-    password : "12345678"
-  }
+  // account:{
+  //   email:string,
+  //   password:string
+  // }={
+  //   email : "youremail@email.com",
+  //   password : "12345678"
+  // }
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
