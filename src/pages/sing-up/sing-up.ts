@@ -30,7 +30,7 @@ export class SingUpPage {
     console.log('ionViewDidLoad SingUpPage');
   }
 
-  Login() {
+  SingUp() {
     this.navCtrl.popToRoot();
   }
 
