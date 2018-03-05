@@ -15,11 +15,23 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SingUpPage {
 
+  account:{
+    email:string,
+    password:string
+  }={
+    email : "youremail@email.com",
+    password : "12345678"
+  }
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SingUpPage');
+  }
+
+  Login() {
+    this.navCtrl.push(HomePage)
   }
 
 }
