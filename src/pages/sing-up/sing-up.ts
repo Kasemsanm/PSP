@@ -16,9 +16,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class SingUpPage {
 
   account:{
+    username:string,
     email:string,
     password:string
   }={
+    username : "Username",
     email : "youremail@email.com",
     password : "12345678"
   }
