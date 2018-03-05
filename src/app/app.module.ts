@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { SingUpPage } from '../pages/sing-up/sing-up';
+import { MainMenuPage } from '../pages/main-menu/main-menu';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     LoginPage,
-    SingUpPage
+    SingUpPage,
+    MainMenuPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { SingUpPage } from '../pages/sing-up/sing-up';
     MyApp,
     HomePage,
     LoginPage,
-    SingUpPage
+    SingUpPage,
+    MainMenuPage
   ],
   providers: [
     StatusBar,

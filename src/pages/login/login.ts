@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
+import { MainMenuPage } from '../main-menu/main-menu';
 
 /**
  * Generated class for the LoginPage page.
@@ -32,7 +32,8 @@ export class LoginPage {
   }
   
   Login() {
-    this.navCtrl.push(HomePage)
+    this.navCtrl.popToRoot();
+    this.navCtrl.push(MainMenuPage);
   }
 
 }
