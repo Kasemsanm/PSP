@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
-import { SingupPage } from '../singup/singup';
 
 @Component({
   selector: 'page-home',
@@ -14,8 +13,5 @@ export class HomePage {
   }
   LoginPage() {
     this.navCtrl.push(LoginPage);
-  }
-  SingupPage() {
-    this.navCtrl.push(SingupPage);
   }
 }
