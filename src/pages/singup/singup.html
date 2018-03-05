@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      SingUp
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label>Email</ion-label>
+        <ion-input type="email" [ngModel]="account.email" name="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password" [ngModel]="account.password" name="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <button ion-button block (click)="SingUp()">SingUp</button>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>
