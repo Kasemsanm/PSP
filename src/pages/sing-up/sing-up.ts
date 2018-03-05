@@ -31,7 +31,7 @@ export class SingUpPage {
   }
 
   Login() {
-    this.navCtrl.push(HomePage)
+    this.navCtrl.popToRoot();
   }
 
 }
