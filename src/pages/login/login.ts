@@ -32,7 +32,6 @@ export class LoginPage {
   }
   
   Login() {
-    this.navCtrl.popToRoot();
     this.navCtrl.push(MainMenuPage);
   }
 
